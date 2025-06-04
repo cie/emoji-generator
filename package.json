@@ -1,6 +1,10 @@
 {
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "openai": "^5.1.0"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env backend.js"
+  }
 }
